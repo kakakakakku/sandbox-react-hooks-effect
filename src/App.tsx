@@ -6,7 +6,7 @@ const App: React.FC = () => {
   useEffect(() => {
     document.title = `You clicked ${count} times`;
     return (() => console.log('Clean Up 🐤'));
-  });
+  }, [count]);
 
   return (
     <div>
