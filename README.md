@@ -6,3 +6,7 @@
 $ yarn install
 $ yarn start
 ```
+
+## Screenshot
+
+![](images/screenshot.png)
