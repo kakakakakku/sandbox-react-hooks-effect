@@ -26,7 +26,7 @@ const App: React.FC = () => {
         Click me
       </button>
       <hr />
-      <img src={meowUrl} style={{ height: 200 }} />
+      <img src={meowUrl} alt='meow' style={{ height: 200 }} />
     </div>
   );
 }
