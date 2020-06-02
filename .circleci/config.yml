@@ -6,7 +6,7 @@ jobs:
       - image: circleci/node:14
     steps:
       - checkout
-      - run: exit 0
+      - run: exit 1
 
 workflows:
   version: 2
