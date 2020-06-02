@@ -5,7 +5,5 @@ update_configs:
     update_schedule: daily
     automerged_updates:
       - match:
-          dependency_name: axios
-      - match:
-          dependency_name: react*
-          update_type: semver:minor
+          dependency_type: all
+          update_type: all
